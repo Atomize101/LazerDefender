@@ -37,3 +37,5 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 }
+
+// Follow up and determine if these need to be changed.
