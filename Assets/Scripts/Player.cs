@@ -47,6 +47,11 @@ public class Player : MonoBehaviour
         ProcessHit(damageDealer);
     }
 
+    private void PlayerPowerUp()
+    { 
+    
+    }
+
     private void ProcessHit(DamageDealer damageDealer)
     {
         health -= damageDealer.GetDamage();
